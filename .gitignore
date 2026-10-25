@@ -1,0 +1,32 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+.npmrc
+
+# Private workspace state and generated data
+.agents/
+.local/
+.cache/
+.upm/
+attached_assets/
+generated-artifacts/
+coverage/
+*.log
+*.sql
+*.dump
+*.sqlite
+*.sqlite3
